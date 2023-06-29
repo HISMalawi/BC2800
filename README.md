@@ -1,5 +1,5 @@
 # BC2800
-Machine driver for mindray bc2800
+Machine driver for mindray bc2800 - Bc3000
 
 1. Install node v10.24.1 on all in one pc
  ```
