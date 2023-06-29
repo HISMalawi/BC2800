@@ -18,7 +18,7 @@ Machine driver for mindray bc2800
 ```
   node kx21n.js
 ```
-NB: This should show a log: "Port open", if the connection is succesful. SHould opening port require permissions, git the port permission by running: ``` sudo chmod -R 777 /dev/ttyUSB0 ``` 
+NB: This should show a log: "Port open", if the connection is succesful. Should opening port require permissions, give the port permission by running: ``` sudo chmod -R 777 /dev/ttyUSB0 ``` 
   
 5. Go to settings about transimission in the lab machine - then enable Auto Trans.  
 6. Do a dummy test on the machine and observe the log on the all in one terminal whenever the machine finishes processing the test. 
