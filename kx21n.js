@@ -142,10 +142,10 @@ port.on("data", function (data) {
           result.substr(38 + base, 2) + "." + result.substr(40 + base, 1);
       } else if (i == 5) {
         results[test] =
-          result.substr(41 + base, 2) + "." + result.substr(41 + base, 1);
+          result.substr(41 + base, 2) + "." + result.substr(43 + base, 1);
       } else if (i == 6) {
         results[test] =
-          result.substr(44 + base, 2) + "." + result.substr(44 + base, 1);
+          result.substr(44 + base, 2) + "." + result.substr(46 + base, 1);
       } else if (i == 7) {
         results[test] =
           result.substr(47 + base, 1) + "." + result.substr(48 + base, 2);
